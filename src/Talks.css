@@ -1,0 +1,58 @@
+.head
+{
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.title
+{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.list ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  .list ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(255, 255, 255); /* Change the color */
+    font-size: 40px;
+  }
+
+.red
+{
+    color: red;
+    cursor: pointer;
+}
+
+.story p 
+{
+    padding: 1px;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.story
+{
+    padding-top: 0;
+    margin-top: -41px;
+    padding-bottom: 30px;
+}
+
+hr
+{
+    border: none;
+    height: 1px;
+    color: red; 
+    background-color: red; 
+    margin-left: 45px;
+}
+
+.list {
+    text-align: left;
+    list-style-position: inside;
+    width: 60%;
+  }

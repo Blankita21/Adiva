@@ -1,0 +1,103 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.cards-container {
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  border: 0;
+  display: flex;
+}
+
+.card {
+  width: 300px;
+  height: 270px;
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  border: 2px solid rgb(58, 57, 57);
+  border-radius: 10px;
+}
+
+.poster {
+  width: 300px;
+  min-height: 230px;
+  max-height: auto;
+  height: 10vh;
+}
+
+.poster img {
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  min-height: 230px;
+}
+
+.name p {
+  color: white;
+  float: left;
+  padding-left: 10px;
+}
+
+.name span{
+  color: red;
+  font-size: 26px;
+  float: right;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+.title h3
+{
+  float: left;
+  color: white;
+  margin-left: 10px;
+}
+
+.wisdom
+{
+  margin-top: 20px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+}
+
+.wisdom h2, h1, p
+{
+  color: white;
+}
+
+.wisdom img
+{
+  width: 35%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.foot
+{
+  margin-top: 130px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+}
+
+.foot p
+{
+  margin-left: -5px;
+  padding-top: 0;
+}
+
+.quote p
+{
+  display: flex;
+  margin-top: -190px;
+  margin-left: 130px;
+}
+
